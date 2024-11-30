@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMGE Syllabus Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FMGE 2024 Syllabus Tracker</h1>
+            <div class="overall-progress">
+                <div class="progress-bar">
+                    <div id="overall-progress" class="progress"></div>
+                </div>
+                <span id="progress-text">0% Completed</span>
+            </div>
+            <button id="resetBtn" class="reset-btn">Reset Progress</button>
+        </header>
+        <div id="syllabus-container"></div>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <h3>Calendar</h3>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-date">
+                    <span class="calendar-day">30</span>
+                    <span class="calendar-month">NOV</span>
+                    <span class="calendar-year">2024</span>
+                </div>
+            </div>
+        </div>
+        <div class="timer-container">
+            <h3>FMGE 2025 Countdown</h3>
+            <div id="countdown">
+                <div class="time-block">
+                    <span class="label">Days</span>
+                    <span id="days">0</span>
+                </div>
+                <div class="time-block">
+                    <span class="label">Hours</span>
+                    <span id="hours">0</span>
+                </div>
+                <div class="time-block">
+                    <span class="label">Minutes</span>
+                    <span id="minutes">0</span>
+                </div>
+                <div class="time-block">
+                    <span class="label">Seconds</span>
+                    <span id="seconds">0</span>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="developer-info">Designed & Developed by Vazeed Shaik</div>
+            <div class="best-wishes">
+                <span class="wish-text">All the Best!</span>
+                <span class="wish-emoji">🌟</span>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
